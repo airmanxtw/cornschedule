@@ -29,7 +29,7 @@ exports.getConfig = function () {
                 ]
             },
             {
-                //凌晨一點
+                //凌晨兩點
                 corn: '0 2 * * *',
                 apiurl: [
                     "https://xxxx.stust.edu.tw/xxxx/ashx/xxxx.ashx",
@@ -42,3 +42,5 @@ exports.getConfig = function () {
 exports.hello = function () {
     return "hello";
 }
+
+
